@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sign Up Form</title>
+
+<style>
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    border: 2px solid black;
+}
+
+.header {
+    background-color: #d88a00;
+    color: #fff;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.form-box {
+    background-color: pink; /* dark blue → pink */
+    padding: 20px;
+    color: black; /* yellow → black */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    width: 150px;
+}
+
+.form-group input,
+.form-group select {
+    padding: 5px;
+    width: 200px;
+}
+
+.gender input {
+    width: auto;
+    margin-left: 10px;
+}
+
+.checkbox {
+    margin-top: 10px;
+    color: black; /* make sure checkbox text is black */
+}
+
+.footer {
+    background-color: #d88a00;
+    padding: 10px;
+    text-align: right;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.submit {
+    background-color: #4CAF50;
+}
+
+.cancel {
+    background-color: #d9534f;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">Sign Up</div>
+
+    <div class="form-box">
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="text" placeholder="Enter First Name">
+        </div>
+
+        <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" placeholder="Enter Last Name">
+        </div>
+
+        <div class="form-group">
+            <label>Date of Birth</label>
+            <select><option>Date</option></select>
+            <select><option>Month</option></select>
+            <select><option>Year</option></select>
+        </div>
+
+        <div class="form-group gender">
+            <label>Gender</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+        </div>
+
+        <div class="form-group">
+            <label>Country</label>
+            <select><option>Country</option></select>
+        </div>
+
+        <div class="form-group">
+            <label>E-mail</label>
+            <input type="email" placeholder="Enter E-mail">
+        </div>
+
+        <div class="form-group">
+            <label>Phone</label>
+            <input type="text" placeholder="Enter Phone">
+        </div>
+
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password">
+        </div>
+
+        <div class="form-group">
+            <label>Confirm Password</label>
+            <input type="password">
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox"> I Agree to the Terms of use
+        </div>
+    </div>
+
+    <div class="footer">
+        <button class="submit">Submit</button>
+        <button class="cancel">Cancel</button>
+    </div>
+
+</div>
+
+</body>
+</html>

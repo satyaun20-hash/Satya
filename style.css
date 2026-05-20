@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(246, 249, 249);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: rgb(247, 243, 243);
+    width: 100%;
+    /* move to the right side */
+    display: flex;
+    /* move to the end of right */
+    justify-content: flex-end;
+    height: 10%;
+    border-radius: 20px;
+}
+.menu{
+    /* ប្រើសម្រាប់រំកិលទៅខាងស្ដាំ */
+    display: flex;
+    /* for space seperate the texts */
+    gap: 20px;
+    padding: 20px;
+}
+.menu li{
+    /* for remove the style (.) */
+    list-style: none;
+}
+.menu li a{
+    /* remove all the line under the texts */
+    text-decoration: none;
+    font-size: 20px;
+}
+/* showing animation when the curser in on the text */
+.menu li a:hover{
+background-color: orange;
+width: 100%;
+padding: 5px;
+border-radius: 5px;
+color: rgb(16, 100, 173);
+}
+.logo{
+    /* for move the object to left or right */
+    margin-right: auto;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 5px;
+}
+input{
+    padding: 3px;
+    display: flex;
+    border-radius: 50px solid black;
+}
+.banner img{
+width: 100%;
+/* For move the banner from upside down */
+margin-top: 10px;
+height: 300px;
+}
+/* categories */
+.categories{
+    display: flex;
+    gap: 25px;
+}
+.categories .card{
+    background-color: aliceblue;
+    box-shadow: 0px 0px 8px 0px black;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.categories .card img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin-right: 50px;
+    
+}
+p{
+
+    text-align: center;
+}
+h1{
+    text-decoration: underline ;
+}
+.container .container{
+    width: 200px;
+    height: 200px;
+    margin-right: 1000px;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.card{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+}
+.container3 .card{
+    height: 400pxpx;
+    width: 18%;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 8px 0px black;
+    border-radius: 10px;
+}
+.container3 .card img{
+    width: 190px;
+    height: 250px;
+    margin-left: 23px;
+}
+.container3 .card h2{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+.container3 .card h3{
+    text-align: center;
+    color: red;
+}
+.container3 .card p{
+    text-align: center;
+    margin-top: -10px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+}
+.container3 .card li{
+    margin-left: 20px;
+    color: gold;
+}
+h5{
+    cursor: pointer;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 90px;
+    padding: 10px;
+    border: #491cd1;
+    background-color: #e8e6ee;
+    background-size: 10px;
+    border-radius: 8px;
+    margin-right: 60px;
+}
+hr{
+    size: 1rem;
+}
+
